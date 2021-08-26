@@ -68,10 +68,8 @@ exports.sendMail = (req, res) => {
     if(req.body.registerType == 'events') {
 
         response = `Hello <b>${req.body.firstName}</b>,<br><br>
-        Congratulations! You have successfully registered for the <b>I Build My Wealth</b>.<br>
-        The best thing you can do now is to bookmark the webinar link at <b>${req.body.selectedDate}</b>, and to set a reminder on your calendar so you do not miss the webinar.<br>
-        <ul><li><b>Link: </b> https://event.webinarjam.com/t/click/17zzruyivap16cw2zam6lczfr</li>
-        <li><b>Password: </b> N/A</li></ul>
+        Congratulations! You have successfully registered for the <b>I Build My Wealth Event</b>.<br>
+        
         <br>See you soon!<br>
         `
     }
